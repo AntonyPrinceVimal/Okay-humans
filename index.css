@@ -1,0 +1,5025 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: 'brandonBold';
+    src: url('HVD\ Fonts\ -\ BrandonGrotesque-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'brandonMedium';
+    src: url('HVD\ Fonts\ -\ BrandonGrotesque-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: "brandonRegular";
+    src: url('HVD\ Fonts\ -\ BrandonGrotesque-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: "sofiaBold";
+    src: url('Mostardesign\ -\ Sofia\ Pro\ Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: "sofiaLight";
+    src: url('Mostardesign\ -\ Sofia\ Pro\ Light.otf') format('opentype');
+}
+@font-face{
+    font-family: "sofiaMedium";
+    src: url('Mostardesign\ -\ Sofia\ Pro\ Medium.otf') format('opentype');
+}
+
+@font-face{
+    font-family: "sofiaRegular";
+    src: url('Mostardesign\ -\ Sofia\ Pro\ Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: "palmerRegular";
+    src: url('Jen\ Wagner\ Co.\ -\ Palmer\ Lake\ Print\ Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: "ralewaySemibold";
+    src: url('Raleway-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: "ralewayExtrabold";
+    src: url('Raleway-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: "ralewayRegular";
+    src: url('Raleway-Regular.otf') format('opentype');
+}
+
+.topbar{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #15364C;
+    display: flex;
+    justify-content: center;
+
+}
+.okayHumans{
+    font-size: 2vw;
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: "ralewayRegular";
+    font-weight: 300;
+}
+.firstIconDiv{
+    width: 2%;
+    height: 4%;
+    background: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.bookSession{
+    font-family: "brandonBold";
+    font-weight: bold;
+    font-size: 1vw;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: white;
+    border-bottom: 2px solid white;
+    margin: 0%;
+    padding: 0%;
+}
+.bringYour{
+    font-size: 7vw;
+    position: absolute;
+    top: 15%;
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+    font-family: "ralewaySemibold";
+    font-weight: 500;
+    
+}
+.o{
+    position: relative;
+}
+.o::after{
+    background-size: cover;
+    transform: scale(0.8);
+    position: absolute;
+    content: "";
+    background-image: url('Picsart_24-10-28_11-50-03-996.png');
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    top: 30%;
+    left: -3%;
+    z-index: 1000;
+}
+.b,.g,.rr,.g3,.e{
+    color: #e7e1d9;
+}
+.r,.y,.bb{
+    color: #edcfcc;
+}
+.i,.u,.g4,.a{
+    color: #a6c3d2;
+}
+.n,.o,.g2{
+    color: #cadbe4;
+}
+.baggage{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 7vw;
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+    font-family: "ralewaySemibold";
+    font-weight: 500;
+}
+.emotionalOutDiv{
+    position: absolute;
+    width: 100%;
+    height: 27%;
+    bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+.emotionalDiv{
+    width: 13%;
+    height: 100%;
+}
+.emotional{
+    height: 100%;
+    width: 100%;
+}
+.colorbar{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 2%;
+    background: black;
+    display: flex;
+}
+.one,.five{
+    width: 10%;
+    height: 100%;
+    background: #cadbe4;
+}
+.two,.six{
+    width: 10%;
+    height: 100%;
+    background: #e7e1d9;
+}
+.three,.seven{
+    width: 10%;
+    height: 100%;
+    background: #edcfcc;
+}
+.four,.eight{
+    width: 10%;
+    height: 100%;
+    background: #a6c3d2;
+}
+.nine{
+    width: 10%;
+    height: 100%;
+    background:#cadbe4;
+}
+.ten{
+    width: 10%;
+    height: 100%;
+    background:#e7e1d9;
+}
+.thirdbar{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 47%;
+    background:white;
+    display: flex;
+    justify-content: center;
+}
+.humans{
+    position: absolute;
+    top: 4%;
+    font-size: 4vw;
+    color: #15364c;
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+    font-family: "ralewayExtrabold";
+    font-weight: 700;
+}
+/*  third bar image */
+.picture1Div{
+    position: absolute;
+    top: 15%;
+    width: 60%;
+    height: 40%;
+    background: white;
+    justify-content: center;
+    display: flex;
+}
+.thirdbarImage{
+    margin: 0%;
+    padding: 0%;
+    flex: 1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.lineWithText{
+    width: 100%;
+    position: absolute;
+    top: 58%;
+    height: 10%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.line1,.line2{
+    width: 10%;
+    height: 2%;
+    background: black;
+}
+.needToKnow{
+    font-family: "brandonMedium";
+    font-size: 3vw;
+    margin: 0%;
+    padding: 0%;
+    color: #15364c;
+    line-height: 0.8;
+}
+
+.desdiv{
+    width: 60%;
+    height: 15%;
+    position: absolute;
+    left: 20%;
+    top: 68%;
+    background: white;
+    display: flex;
+    justify-content: center;
+
+}
+.des1{
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+    font-size: 1.7vw;
+    margin: 0%;
+    padding: 0%;
+}
+.takeMe{
+    width: 50%;
+    height: 5%;
+    background: #e8d0cd;
+    border: none;
+    position: absolute;
+    top: 88%;
+    font-family: "brandonBold";
+    font-weight: bold;
+    color: #15364c;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.fourthBar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 167%;
+    background: #f5e0d4;
+}
+.lineWithText1{
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    background: #f5e0d4;
+    height: 5%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.line11,.line22{
+    width: 20%;
+    height: 2%;
+    background: black;
+}
+.ourStory{
+    font-size: 2.3vw;
+    font-family: "brandonMedium";
+    font-weight: 400;
+    color: #15364C;
+    margin: 0%;
+    padding: 0%;
+}
+.firstTextWithImage{
+    position: absolute;
+    left: 20%;
+    margin: 0%;
+    top: 10%;
+    width: 60%;
+    height: 37%;
+    background: #f5e0d4;
+} 
+.paragraphdiv{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.paragraph{
+    font-size: 1.4vw;
+    margin: 0%;
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+}
+.words{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    border-bottom: 1px solid #2f6079;
+}
+/* fourth bar 1st image*/
+.imageOnLeft{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background: violet;
+    display: flex;
+}
+.fourthbarImage{
+    width: 100%;
+    height: 100%;
+}
+
+.firstTextWithImage1{
+    position: absolute;
+    left: 20%;
+    margin: 0%;
+    top: 51%;
+    width: 60%;
+    height: 37%;
+    background: #f5e0d4;
+} 
+.paragraphdiv1{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background:#f5e0d4;
+}
+.paragraph1{
+    font-size: 1.5vw;
+    margin: 0%;
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+}
+/* fourth bar 2nd image*/
+.imageOnLeft1{
+    width: 39%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background: blue;
+}
+.fourthbarImage1{
+    width: 100%;
+    height: 100%;
+}
+.lastSloganDiv{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 92%;
+    background: #f5e0d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastSlogan{
+    font-family: "palmerRegular";
+    font-weight: normal;
+    color: #2f6079;
+    font-size: 2.8vw;
+    margin: 0%;
+}
+.fifthBar{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 267%;
+    background:white;
+}
+.howItWorksDiv{
+    position: absolute;
+    height: 8%;
+    width: 100%;
+    background: white;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.fifthLine1,.fifthLine2{
+    width: 20%;
+    height: 2%;
+    background: black;
+}
+.howItWorks{
+    font-size: 2vw;
+    font-family: "brandonMedium";
+    font-weight: 400;
+    color: #15364C;
+    margin: 0%;
+    padding: 0%;
+}
+.secondSegment{
+    width: 100%;
+    height: 65%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 2%;
+    top: 13%;
+}
+.firstPart{
+    border: none;
+    width: 22%;
+    height: 90%;
+    background: white;
+}
+/*  fifth bar image  section*/
+.firstPartImageDiv,.secondPartImageDiv,.thirdPartImageDiv{
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+.firstPartImage,.secondPartImage,.thirdPartImage{
+    width: 100%;
+    height: 100%;
+}
+
+.firstPartLine1,.secondPartLine1,.thirdPartLine1{
+    width: 100%;
+    height: 10%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.firstPartLine2,.secondPartLine2,.thirdPartLine2{
+    width: 100%;
+    height: 10%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.firstPartLine3,.secondPartLine3,.thirdPartLine3{
+    width: 100%;
+    height: 7%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.firstPartLine4,.secondPartLine4,.thirdPartLine4{
+    width: 100%;
+    height: 7%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.firstPartLine5,.secondPartLine5,.thirdPartLine5{
+    width: 100%;
+    height: 6%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.firstLine1,.firstLine2,.secondLine1,.secondLine2,.thirdLine1,.thirdLine2{
+    font-size: 2vw;
+    font-family: "ralewayExtrabold";
+    font-weight: 700;
+    color: #13364D;
+    margin: 0%;
+    padding: 0%;
+}
+.firstLine3,.firstLine4,.firstLine5,.secondLine3,.secondLine4,.secondLine5,.thirdLine3,.thirdLine4,.thirdLine5{
+    font-size: 1.3vw;
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+    margin: 0%;
+    padding: 0%;
+}
+.secondPart{
+    width: 22%;
+    height: 90%;
+    background: white;
+}
+.thirdPart{
+    width: 22%;
+    height: 90%;
+    background: white;
+}
+.learnMoreDiv{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 83%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learnMore{
+    margin: 0%;
+    width: 30%;
+    height: 80%;
+    border: none;
+    background: #e9aaa2;
+    border-radius: 10px;
+    font-size: 2vw;
+    font-family: "brandonBold";
+    color: #15364C;
+}
+.sixthBar{
+    position: absolute;
+    top: 347%;
+    width: 100%;
+    height: 100%;
+    background: #f5e0d4;
+}
+.becomeAnDiv{
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    background: #f5e0d4;
+    top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.sixthLine1,.sixthLine2{
+    width: 15%;
+    height: 2%;
+    background: black;
+}
+.becomeAn{
+    font-family: "brandonMedium";
+    font-weight: 400;
+    font-size: 2vw;
+    margin: 0%;
+    color: #15364C;
+}
+.theDecision{
+    width: 100%;
+    height: 5%;
+    background: #f5e0d4;
+    position: absolute;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theDecisionText{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 1.5vw;
+    margin: 0%;
+}
+.pointsDiv{
+    width: 80%;
+    height: 80%;
+    background: #f5e0d4;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+.point1{
+    position: absolute;
+    left: 0%;
+    width: 49%;
+    height: 17%;
+    background: #f5e0d4;
+    display: inline-block;
+}
+
+.point6{
+    position: absolute;
+    right: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+    display: inline-block;
+}
+.point2{
+    position: absolute;
+    top: 17%;
+    left: 0%;
+    width: 49%;
+    height: 13%;
+    background: #f5e0d4;
+}
+.point7{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point3{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 49%;
+    height: 30%;
+    background: #f5e0d4;
+    display: flex;
+    align-items: center;
+}
+.point8{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point4{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point9{
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point5{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point10{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    width: 49%;
+    height: 20%;
+    background: #f5e0d4;
+}
+.point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+    font-size: 1.8vw;
+    margin: 0%;
+    margin-left: 5%;
+}
+.point11::before{
+    content: "1";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point22::before{
+    content: "2";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point33::before{
+    content: "3";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point44::before{
+    content: "4";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point55::before{
+    content: "5";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point66::before{
+    content: "6";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point77::before{
+    content: "7";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point88::before{
+    content: "8";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point99::before{
+    content: "9";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.point1010::before{
+    content: "10";
+    width: 40px;
+    height: 40px;
+    background-color: #a6c3d2;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.seventhBar{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 447%;
+    background: white;
+}
+.constructionDiv{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 4%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.linen1,.linen2{
+    width: 15%;
+    height: 2%;
+    background: black;
+}
+.construction{
+    font-family: "brandonMedium";
+    font-weight: 400;
+    color: #15364c;
+    font-size: 3vw;
+    margin: 0%;
+}
+.designTextWithImage{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 13%;
+    background: white;
+    left: 10%;
+}
+
+/*seventh bar image 1*/
+.designImageDiv{
+    width: 28%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    background: yellow;
+    display: flex;
+}
+.deisgnImage23{
+    width: 100%;
+    height: 100%;
+}
+.designTextDiv{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.designpara{
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+    font-size: 2.1vw;
+    margin: 0%;
+    margin-left: 7%;
+}
+/* seventh para tech image section*/
+.techImage{
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background: white;
+}
+.techy{
+    width: 100%;
+    height: 100%;
+}
+.eightBar{
+    width: 100%;
+    height: 120%;
+    background: #f5e0d4;
+    position: absolute;
+    top: 567%;
+}
+.settingImageDiv{
+    width: 100%;
+    height: 20%;
+    background: #f5e0d4;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+}
+/* eight image */
+.settingImage{
+    width: 15%;
+    height: 100%;
+    background: #f5e0d4;
+}
+.setty{
+    width: 100%;
+    height: 100%;
+}
+.supportDiv{
+    width: 100%;
+    height: 5%;
+    background: #f5e0d4;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.linea1,.linea2{
+    width: 17%;
+    height: 2%;
+    background: black;
+}
+.support{
+    font-size: 3vw;
+    font-family: "brandonMedium";
+    font-weight: 400;
+    color: #15364c;
+    margin: 0%;
+
+}
+.supportDesDiv{
+    width: 100%;
+    height: 10%;
+    background: yellow;
+    position: absolute;
+    top: 26%;
+}
+.supportLine1,.supportLine2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.supportLine1{
+    background: #f5e0d4;
+}
+.supportline2{
+    background: #f5e0d4;
+}
+.supportDes1,.supportDes2{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+.dotPoint1{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.dotPoint2{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.dotPoint3{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    background:#f5e0d4;
+}
+.dotPoint4{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.dotPoint5{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.dotPoint6{
+    width: 49%;
+    height: 10%; 
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    background: #f5e0d4;
+}
+.dotPoint7{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    background: #f5e0d4;
+}
+.dotPoint8{
+    width: 49%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    background: #f5e0d4;
+}
+.dotPoint9{
+    width: 49%;
+    height: 10%;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    background: #f5e0d4;
+}
+.dotPoint10{
+    width: 49%;
+    height: 20%;
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    background: #f5e0d4;
+}
+.dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+    font-size: 2.1vw;
+    margin: 0%;
+    margin-left: 8%;
+}
+.dp8{
+    margin-top: 5%;
+}
+.dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+    content: "1";
+    width: 20px;
+    height: 20px;
+    background-color: #a6c3d2;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.1vw;
+    color: #a6c3d2;
+    top: 15%;
+    left: 4%;
+}
+.dp8::before{
+    top: 25%;
+}
+.dp10::before{
+    top: 10%;
+}
+.ninethBar{
+    width: 100%;
+    height: 150%;
+    background: white;
+    position: absolute;
+    top: 687%;
+}
+.signMeDiv{
+    width: 100%;
+    height: 7%;
+    background: white;
+    position: absolute;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.lineb1,.lineb2{
+    width: 20%;
+    height: 2%;
+    background: black;
+}
+.signMe{
+    font-family: "brandonMedium";
+    font-weight: 400;
+    color: #15364C;
+    font-size: 3vw;
+    margin: 0%;
+}
+.signDesDiv{
+    width: 100%;
+    height: 11%;
+    top: 13%;
+    background: white;
+    position: absolute;
+}
+.signLine1{
+    width: 100%;
+    height: 33%;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signLine2{
+    width: 100%;
+    height: 33%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signLine3{
+    width: 100%;
+    height: 34%;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signDes1,.signDes2,.signDes3{
+    margin: 0%;
+    font-size: 2vw;
+    font-family: "sofiaLight";
+    font-weight: 300;
+    color: #2f6079;
+}
+.sampleFlex{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 24.5%;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    row-gap: 2%;
+}
+.firstNameDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+.lastNameDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+.emailDiv0{
+    width: 50%;
+    height: 10%;
+    background: white;
+}
+.firstNameTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+.lastNameTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+.emailTextDiv0{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+.firstName,.lastName,.email0{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+.firstNameInputDiv,.lastNameInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+.emailInputDiv0{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+.firstNameInput,.lastNameInput{
+    margin-top: 5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.emailInput0{
+    margin-top: 2.5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+/* street Address*/
+/* change width*/
+.streetAddressDiv{
+    width: 50%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.streetAddressTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.streetAddress{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.streetAddressInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+.streetAddressInput{
+    margin-top: 2.5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.streetAddressInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+/* city*/
+/* change width*/
+.cityDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.cityTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.city{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.cityInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.cityInput{
+    margin-top: 5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cityInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+
+
+/* state*/
+/* change width*/
+.stateDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.stateTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.state{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.stateInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.stateInput{
+    margin-top: 5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.stateInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+.stateA{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#select option:disabled {
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#select{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    margin-top: 5%;
+}
+
+
+
+/* country*/
+/* change width*/
+.countryDiv{
+    width: 20%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.countryTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.country{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.countryInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.countryInput{
+    margin-top: 5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.countryInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+/* zip Code*/
+/* change width*/
+.zipCodeDiv{
+    width: 20%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.zipCodeTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.zipCode{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.zipCodeInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.zipCodeInput{
+    margin-top: 5%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.zipCodeInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+
+
+/* Cell Phone*/
+/* change width*/
+.cellPhoneDiv{
+    width: 30%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.cellPhoneTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.cellPhone{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.cellPhoneInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.cellPhoneInput{
+    margin-top: 3%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cellPhoneInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+
+/* Cafi*/
+/* change width*/
+.cafiDiv{
+    width: 30%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.cafiTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.cafi{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.cafiInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.cafiInput{
+    margin-top: 3%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cafiInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#selectCafi{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    margin-top: 3%;
+}
+
+
+/* net worth*/
+/* change width*/
+.netWorthDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.netWorthTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.netWorth{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.netWorthInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.netWorthInput{
+    margin-top: 3%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.netWorthInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#select{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    margin-top: 3%;
+}
+
+
+
+/* itf*/
+/* change width*/
+.itfDiv{
+    width: 25%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.itfTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.itf{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.itfInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.itfInput{
+    margin-top: 3%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.itfInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#select{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    margin-top: 3%;
+}
+
+
+/* where*/
+/* change width*/
+.whereDiv{
+    width: 50%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.whereTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.where{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.whereInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.whereInput{
+    margin-top: 2%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.whereInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+/* LI*/
+/* change width*/
+.liDiv{
+    width: 50%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.liTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.li{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.liInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background:white;
+}
+/* change margin top if needed*/
+.liInput{
+    margin-top: 2%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.liInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+
+
+
+/* how*/
+/* change width*/
+.howDiv{
+    width: 50%;
+    height: 10%;
+    background: white;
+}
+/* change color to see difference */
+.howTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+    background: white;
+}
+
+.how{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.howInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.howInput{
+    margin-top: 2%;
+    width: 98%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.howInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    transform: translateX(5%);
+}
+#selectHow{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    margin-top: 2%;
+}
+
+
+
+/* tell*/
+/* change width*/
+.tellDiv{
+    width: 100%;
+    height: 30%;
+    background: white;
+}
+/* change color to see difference */
+.tellTextDiv{
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+    background: white;
+}
+
+.tell{
+    font-family: "sofiaMedium";
+    font-weight: 400;
+    color: #2f6079;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.tellInputDiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    background: white;
+}
+/* change margin top if needed*/
+.tellInput{
+    margin-top: 0%;
+    width: 98%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tellInput::placeholder{
+    font-size: 1.5vw;
+    font-family: "sofiaRegular";
+    font-weight: 400;
+    margin: 0%;
+    color: gray;
+    position: absolute;
+    top: 8%;
+    left: 1%;
+}
+
+
+.submitDiv{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    font-family: "brandonBold";
+    font-weight: 400;
+    color: #15364C;
+    width: 30%;
+    height: 80%;
+    background: #e9aaa2;
+    border: none;
+    font-size: 3vw;
+    border-radius: 20px;
+}
+
+
+/*  last bar*/
+.tenthBar{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 837%;
+    background: #15364c;
+}
+.lastInsideDiv{
+    width: 100%;
+    height: 80%;
+    background: #15364c;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.lastDiv1,.lastDiv2,.lastDiv3,.lastDiv4{
+    width: 17%;
+    height: 100%;
+}
+.lastDiv1{
+    background:#15364c;
+    
+}
+.lastDiv2{
+    background: #15364c;
+}
+.lastDiv3{
+    background: #15364c;
+}
+.lastDiv4{
+    background: #15364c;
+}
+.lastLogoDiv{
+    width: 100%;
+    height: 50%;
+    background: #15364c;
+    display: flex;
+    justify-content: center;
+}
+.lastLogo{
+    width: 50%;
+    height: 100%;
+}
+.lastIconDiv{
+    width: 100%;
+    height: 50%;
+    background: #15364c;
+    display: flex;
+    
+}
+.lastIcon1{
+    width: 50%;
+    height: 100%;
+    background: #15364c;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#insta{
+    font-size: 3vw;
+    color: white;
+    margin-right: 15%;
+}
+.lastIcon2{
+    width: 50%;
+    height: 100%;
+    background: #15364c;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lastthree{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+#fb{
+    font-size: 3vw;
+    color: white;
+    margin-left: 15%;
+}
+.lastTextDiv1{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv2{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv3{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+.lastTextDiv4{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv5{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+
+
+.lastTextDiv10{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv9{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv8{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+.lastTextDiv7{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv6{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+
+.lastTextDiv11{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv12{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv13{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+.lastTextDiv14{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+.lastTextDiv15{
+    width: 100%;
+    height: 20%;
+    background: #15364c;
+}
+
+.lastText1,.lastText2,.lastText3,.lastText4,.lastText5,.lastText6,.lastText7,.lastText8,.lastText9,.lastText10,.lastText11,.lastText12,.lastText13,.lastText14,.lastText15{
+    font-size: 1.3vw;
+    font-family: "brandonRegular";
+    font-weight: 400;
+    color: white;
+    margin: 0%;
+}
+/* 7th media */
+@media screen and (max-width:810px) and (max-height:1080px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 1%;
+    }
+    .thirdbar{
+        top: 21%;
+        height: 45%;
+    }
+    .fourthBar{
+        top: 66%;
+        height: 45%;
+    }
+    .fifthBar{
+        top: 111%;
+        height: 40%;
+    }
+    .sixthBar{
+        top: 151%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        font-size: 2.6vw;
+        margin: 0%;
+    }
+    #vaa5{
+        font-size: 2.1vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 13px;
+        height: 13px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 201%;
+        height: 45%;
+    }
+    .eightBar{
+        top: 246%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 296%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 2.5vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 411%;
+        height: 10%;
+    }
+}
+
+
+/* tablet*/
+/* 6th media */
+
+@media screen and (max-width:768px) and (max-height:1024px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 1%;
+    }
+    .thirdbar{
+        top: 21%;
+        height: 45%;
+    }
+    .fourthBar{
+        top: 66%;
+        height: 45%;
+    }
+    
+    .fifthBar{
+        top: 111%;
+        height: 40%;
+    }
+    .sixthBar{
+        top: 151%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        
+        margin: 0%;
+    }
+    
+    #vaa5{
+        font-size: 2.1vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 201%;
+        height: 45%;
+    }
+    .eightBar{
+        top: 246%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 10px;
+        height: 10px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 296%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 2.5vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 411%;
+        height: 10%;
+    }
+}
+
+
+
+/*5th media*/
+
+
+
+@media screen and (max-width:414px) and (max-height:896px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 0.5%;
+    }
+    .thirdbar{
+        top: 20.5%;
+        height: 40%;
+    }
+    .fourthBar{
+        top: 58.5%;
+        height: 33%;
+    }
+    .paragraph,.paragraph1{
+        font-size: 1.6vw;
+    }
+    .fifthBar{
+        top: 91.5%;
+        height: 38%;
+    }
+    .sixthBar{
+        top: 129.5%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        font-size: 2.6vw;
+        margin: 0%;
+    }
+    #vaa5{
+        font-size: 2.3vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 179.5%;
+        height: 38%;
+    }
+    .eightBar{
+        top: 217.5%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 267.5%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 3.5vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2.5vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 382.5%;
+        height: 8%;
+    }
+}
+
+
+
+/* 3rd media */
+@media screen and (max-width:414px) and (max-height:736px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 1%;
+    }
+    .thirdbar{
+        top: 21%;
+        height: 45%;
+    }
+    .fourthBar{
+        top: 66%;
+        height: 35%;
+    }
+    .paragraph,.paragraph1{
+        font-size: 1.5vw;
+    }
+    .fifthBar{
+        top: 101%;
+        height: 40%;
+    }
+    .sixthBar{
+        top: 141%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        
+        margin: 0%;
+    }
+    
+    #vaa5{
+        font-size: 2.3vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 191%;
+        height: 40%;
+    }
+    .eightBar{
+        top: 231%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 281%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 3vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2.5vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 396%;
+        height: 10%;
+    }
+}
+
+
+
+/* 4th media */
+
+@media screen and (max-width:375px) and (max-height:812px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 0.5%;
+    }
+    .thirdbar{
+        top: 20.5%;
+        height: 40%;
+    }
+    .fourthBar{
+        top: 58.5%;
+        height: 33%;
+    }
+    .paragraph,.paragraph1{
+        margin-top: 3%;
+        font-size: 1.5vw;
+    }
+    .fifthBar{
+        top: 91.5%;
+        height: 38%;
+    }
+    .sixthBar{
+        top: 129.5%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        
+        margin: 0%;
+    }
+    #vaa5{
+        font-size: 2.3vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 179.5%;
+        height: 38%;
+    }
+    .eightBar{
+        top: 217.5%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 267.5%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 3vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2.5vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 382.5%;
+        height: 8%;
+    }
+}
+/* 2nd media */
+@media screen and (max-width:375px) and (max-height:667px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 1%;
+    }
+    .thirdbar{
+        top: 21%;
+        height: 45%;
+    }
+    .fourthBar{
+        top: 66%;
+        height: 35%;
+    }
+    .paragraph,.paragraph1{
+        font-size: 1.5vw;
+    }
+    .fifthBar{
+        top: 101%;
+        height: 40%;
+    }
+    .sixthBar{
+        top: 141%;
+        height: 50%;
+    }
+    .pointsDiv{
+
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    .point11,.point22,.point33,.point44,.point55,.point66,.point77,.point88,.point99,.point1010{
+        
+        margin: 0%;
+    }
+    #vaa5{
+        font-size: 2.3vw;
+    }
+    .point11::before{
+        content: "1";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point22::before{
+        content: "2";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 8px;
+        height: 8px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 191%;
+        height: 40%;
+    }
+    .eightBar{
+        top: 231%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 281%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 3vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2.5vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 396%;
+        height: 10%;
+    }
+}
+
+
+/* 1st media */
+@media screen and (max-width:320px) and (max-height:568px){
+    .topbar{
+        height: 20%;
+    }
+    .colorbar{
+        top: 20%;
+        height: 1%;
+    }
+    .thirdbar{
+        top: 21%;
+        height: 45%;
+    }
+    .fourthBar{
+        top: 66%;
+        height: 35%;
+    }
+    .paragraph,.paragraph1{
+        font-size: 1.5vw;
+    }
+    .fifthBar{
+        top: 101%;
+        height: 40%;
+    }
+    .sixthBar{
+        top: 141%;
+        height: 50%;
+    }
+    .point1{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+    }
+    .point2{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 10%;
+    }
+    .point3{
+        width: 98%;
+        height: 13%;
+        left: 0%;
+        top: 20%;
+    }
+    .point4{
+        width: 98%;
+        height: 7%;
+        left: 0%;
+        top: 33%;
+    }
+    .point5{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 40%;
+    }
+    .point6{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 50%;
+    }
+    .point7{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 60%;
+    }
+    .point8{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 70%;
+    }
+    .point9{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 80%;
+    }
+    .point10{
+        width: 98%;
+        height: 10%;
+        left: 0%;
+        top: 90%;
+    }
+    
+    #vaa5{
+        font-size: 1.5vw;
+    }
+    
+    .point22::before{
+        content: "2";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point33::before{
+        content: "3";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point44::before{
+        content: "4";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point55::before{
+        content: "5";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point66::before{
+        content: "6";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point77::before{
+        content: "7";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point88::before{
+        content: "8";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point99::before{
+        content: "9";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .point1010::before{
+        content: "10";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+    .seventhBar{
+        top: 191%;
+        height: 40%;
+    }
+    .eightBar{
+        top: 231%;
+        height: 50%;
+    }
+    .dotPoint1{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 40%;
+    }
+    .dotPoint2{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 46%;
+    }
+    .dotPoint3{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 52%;
+    }
+    .dotPoint4{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 58%;
+    }
+    .dotPoint5{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 64%;
+    }
+    .dotPoint6{
+        width: 100%;
+        height: 6%;
+        position: absolute;
+        top: 70%;
+    }
+    
+    .dotPoint7{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 76%;
+    }
+    .dotPoint8{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 80%;
+    }
+    .dotPoint9{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        top: 88%;
+    }
+    .dotPoint10{
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        top: 92%;
+    }
+    .dp1,.dp2,.dp3,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        font-family: "sofiaLight";
+        font-weight: 300;
+        color: #2f6079;
+        font-size: 1.8vw;
+        margin: 0%;
+        margin-left: 8%;
+    }
+    .dp1::before,.dp2::before,.dp3::before,.dp4::before,.dp5::before,.dp6::before,.dp7::before,.dp8::before,.dp9::before,.dp10::before{
+        content: "1";
+        width: 5px;
+        height: 5px;
+        background-color: #a6c3d2;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.1vw;
+        color: #a6c3d2;
+        top: 7%;
+        left: 6%;
+    }
+    .ninethBar{
+        top: 281%;
+        height: 115%;
+    }
+    .signMeDiv{
+        height: 4%;
+        top: 2%;
+    }
+    .signDesDiv{
+        top: 8%;
+        height: 5%;
+    }
+    .sampleFlex{
+        height: 80%;
+        top: 15%;
+        row-gap: 1.2%;
+    }
+    .firstNameDiv{
+        width: 50%;
+    }
+    .lastNameDiv{
+        width: 50%;
+    }
+    .firstNameInput{
+        margin-top: 2.5%;
+    }
+    .lastNameInput{
+        margin-top: 2.5%;
+    }
+    .cityDiv{
+        width: 50%;
+    }
+    .cityInput{
+        margin-top: 2.5%;
+    }
+    .stateDiv{
+        width: 50%;
+    }
+    .stateInput{
+        margin-top: 2.5%;
+    }
+    .countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv{
+        width: 50%;
+    }
+    .countryInput,.zipCodeInput,.cellPhoneInput,.cafiInput,.netWorthInput,.itfInput{
+        margin-top: 2.5%;
+    }
+    .firstNameDiv,.lastNameDiv,.emailDiv0,.streetAddressDiv,.cityDiv,.stateDiv,.countryDiv,.zipCodeDiv,.cellPhoneDiv,.cafiDiv,.netWorthDiv,.itfDiv,.whereDiv,.liDiv,.howDiv{
+        height: 8%;
+    }
+    .firstName,.lastName,.email0,.streetAddress,.city,.state,.country,.zipCode,.cellPhone,.cafi,.netWorth,.itf,.where,.li,.how,.tell{
+        font-size: 2.5vw;
+    }
+    .firstNameInput::placeholder,.lastNameInput::placeholder,.emailInput0::placeholder,.streetAddressInput::placeholder,.cityInput::placeholder,.stateInput::placeholder,.countryInput::placeholder,.zipCodeInput::placeholder,.cellPhoneInput::placeholder,.cafiInput::placeholder,.netWorthInput::placeholder,.itfInput::placeholder,.whereInput::placeholder,.liInput::placeholder,.howInput::placeholder,.tellInput::placeholder{
+        font-size: 2vw;
+    }
+    .tellDiv{
+        height: 25%;
+    }
+    .submitDiv{
+        height: 4%;
+        bottom: 0%;
+    }
+    .tenthBar{
+        top: 396%;
+        height: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
